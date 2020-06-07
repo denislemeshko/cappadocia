@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -108,52 +109,97 @@
                 <span>маршрут</span>
               </h3>
               <ul class="our-trip__list">
-                  <li>День 1</li>
-                  <li>Прилёт в Анкару</li>
-                  <li>Трансфер в Каппадокию</li>
-                  <li>Солёное озеро</li>
-                  <li>Приезд в Гёреме</li>
-                  <li>Ужин</li>
-                </ul>
-                <ul class="our-trip__list">
-                  <li>День 2</li>
-                  <li>Фотосессия</li>
-                  <li>Завтрак в отеле </li>
-                  <li>Дневной тур по Каппадокии </li>
-                  <li>Закат с панорамным видом</li>
-                </ul>
-                <ul class="our-trip__list">
-                  <li>День 3</li>
-                  <li>Полёт на воздушном шаре</li>
-                  <li>Завтрак в отеле </li>
-                  <li>Экскурсии на выбор </li>
-                </ul>
-                <ul class="our-trip__list">
-                  <li>День 4</li>
-                  <li>Свободное время, шоппинг</li>
-                  <li>Трансфер в Анкару</li>
-                  <li>Вылет в Киев</li>
-                </ul>
-                <a class="our-trip__btn" href="#">забронировать</a>
+                <li>День 1</li>
+                <li>Прилёт в Анкару</li>
+                <li>Трансфер в Каппадокию</li>
+                <li>Солёное озеро</li>
+                <li>Приезд в Гёреме</li>
+                <li>Ужин</li>
+              </ul>
+              <ul class="our-trip__list">
+                <li>День 2</li>
+                <li>Фотосессия</li>
+                <li>Завтрак в отеле</li>
+                <li>Дневной тур по Каппадокии</li>
+                <li>Закат с панорамным видом</li>
+              </ul>
+              <ul class="our-trip__list">
+                <li>День 3</li>
+                <li>Полёт на воздушном шаре</li>
+                <li>Завтрак в отеле</li>
+                <li>Экскурсии на выбор</li>
+              </ul>
+              <ul class="our-trip__list">
+                <li>День 4</li>
+                <li>Свободное время, шоппинг</li>
+                <li>Трансфер в Анкару</li>
+                <li>Вылет в Киев</li>
+              </ul>
+              <a class="our-trip__btn" href="#">забронировать</a>
             </div>
           </div>
         </div>
         <div class="our-trip__slider">
           <our-trip__slider-item>
-            <img src="images/our-trip-1.jpg" alt="">
+            <img src="images/our-trip-1.jpg" alt="" />
           </our-trip__slider-item>
           <our-trip__slider-item>
-            <img src="images/our-trip-2.jpg" alt="">
+            <img src="images/our-trip-2.jpg" alt="" />
           </our-trip__slider-item>
           <our-trip__slider-item>
-            <img src="images/our-trip-3.jpg" alt="">
+            <img src="images/our-trip-3.jpg" alt="" />
           </our-trip__slider-item>
         </div>
       </div>
     </section>
     <!--//Третий экран-->
+    <!--Четвертый экран-->
+    <section class="hotel page-section">
+      <div class="container">
+        <h3 class="hotel__title title">
+          Hotel
+          <span>Sultan Cave Suites</span>
+        </h3>
+        <div class="hotel__inner">
+          <img class="hotel__images" src="images/hotel.jpg" alt="">
+          <div class="hotel__content">
+              <p class="hotel__text">
+                В этом уникальном отеле, расположенном на вершине холма Айдынлы, вы можете забронировать высеченные в скале номера,
+                обставленные антикварной мебелью со всей Турции. С солнечной террасы 
+                отеля открывается прекрасный панорамный вид на Национальный парк Гереме.
+              </p>
+              <p class="hotel__text">
+                Большинство номеров отеля Sultan Cave Suites высечены в скале,
+                что обеспечивает прохладу и покой. Все номера оборудованы гостиной зоной и современной ванной комнатой.
+                  В большинстве из них есть собственная терраса или балкон.
+              </p>
+              <p class="hotel__text">
+                Отель Cave Suites Sultan располагает изысканным рестораном, где подают фирменные блюда региона Каппадокии.
+                После ужина, пройдя на террасу, вы сможете заказать напиток и полюбоваться закатом солнца над деревней.
+              </p>
+              <div class="hotel__gallery">
+                <a data-fancybox="images" data-width="2048" data-height="1365" href="images/hotel-galerry-1.jpg" >
+                  <img src="images/hotel-galerry-1.jpg" alt="">
+                </a>
+                <a data-fancybox="images" data-width="2048" data-height="1365" href="images/hotel-galerry-2.jpg" >
+                  <img src="images/hotel-galerry-2.jpg" alt="">
+                </a>
+                <a data-fancybox="images" data-width="2048" data-height="1365" href="images/hotel-galerry-3.jpg">
+                  <img src="images/hotel-galerry-3.jpg" alt="">
+                </a>
+                <a data-fancybox="images" data-width="2048" data-height="1365" href="images/hotel-galerry-4.jpg">
+                  <img src="images/hotel-galerry-4.jpg" alt="">
+                </a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--//Четвертый экран-Hotel-->
+    <!-- /.hotel page-section -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/slick.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>

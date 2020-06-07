@@ -227,3 +227,27 @@ right:0;
 	width: 50%;
 	margin-left: auto;
 }
+/*Hotel block*/
+
+.hotel__title span {
+	margin-left: 120px;
+}
+.hotel__inner {
+	display: flex;
+}
+.hotel__images {
+	margin-right: 100px;
+}
+
+.hotel__text {
+	margin-bottom: 20px;
+}
+.hotel__gallery {
+	margin-top: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.hotel__gallery a {
+	margin-top: 50px;
+}
